@@ -8,17 +8,17 @@ For example, the following matrix:
 ```math
 \begin{bmatrix} 1 & 2 & 3 \\\ 4 & 5 & 6 \\\ 7 & 8 & 9 \end{bmatrix}
 ```
-  1   2   3
-  4   5   6
-  7   8   9
-  
 would be sliced into:
- 
-Slice 0: 3
-Slice 1: 2 6
-Slice 2: 1 5 9
-Slice 3: 4 8
-Slice 4: 7
+
+ ```math
+\begin{align}
+Slice 0: 3 \\
+Slice 1: 2 6 \\
+Slice 2: 1 5 9 \\
+Slice 3: 4 8 \\
+Slice 4: 7 \\
+\end{align}
+```
  
 The maximum number of slices is n + m - 1, where n is the number of rows and m is the
 number of columns.
