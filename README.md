@@ -5,7 +5,9 @@ This program performs a wavefront sweep of a matrix, i.e. prints its elements
 considering the diagonals, starting from the top right element and going to
 the bottom left one, printing them in right-down order.
 For example, the following matrix:
-$$\vec{v} = \begin{bmatrix} 1 && 2 && 3 \\\ 4 && 5 && 6 \\\ 7 & 8 & 9 \end{bmatrix}$$ 
+```math
+\begin{bmatrix} 1 & 2 & 3 \\\ 4 & 5 & 6 \\\ 7 & 8 & 9 \end{bmatrix}
+```
   1   2   3
   4   5   6
   7   8   9
