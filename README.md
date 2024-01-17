@@ -24,7 +24,7 @@ number of columns.
 This program is also able to slice only the superior triangular matrix, but the output
 only makes sense if the input matrix is a square matrix.
  
-You can configure the number of rows and columns by changing the $\color{lightpurple}{\text{define}}$ directives
+You can configure the number of rows and columns by changing the $\color[HTML]{#d747ff}{\text{define}}$ directives
 you will find in the code. The program automatically generates a matrix with the
 specified dimensions. In case you choose $n = 0$ and $m = 0$, the assertion in the
 "slicer" function will fail, causing the abortion of the process.
