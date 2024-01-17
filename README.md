@@ -11,14 +11,14 @@ For example, the following matrix:
 would be sliced into:
 
  ```
-Slice 0: 3 \\
-Slice 1: 2 6 \\
-Slice 2: 1 5 9 \\
-Slice 3: 4 8 \\
-Slice 4: 7 \\
+Slice 0: 3 
+Slice 1: 2 6 
+Slice 2: 1 5 9 
+Slice 3: 4 8 
+Slice 4: 7 
 ```
  
-The maximum number of slices is n + m - 1, where n is the number of rows and m is the
+The maximum number of slices is $n + m - 1$, where $n$ is the number of rows and $m$ is the
 number of columns.
  
 This program is also able to slice only the superior triangular matrix, but the output
@@ -26,7 +26,7 @@ only makes sense if the input matrix is a square matrix.
  
 You can configure the number of rows and columns by changing the #define directives
 you will find in the code. The program automatically generates a matrix with the
-specified dimensions. In case you choose n = 0 and m = 0, the assertion in the
+specified dimensions. In case you choose $n = 0$ and $m = 0$, the assertion in the
 "slicer" function will fail, causing the abortion of the process.
  
 To compile:
