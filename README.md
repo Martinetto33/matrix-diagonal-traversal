@@ -10,14 +10,12 @@ For example, the following matrix:
 ```
 would be sliced into:
 
- ```math
-\begin{align}
+ ```
 Slice 0: 3 \\
 Slice 1: 2 6 \\
 Slice 2: 1 5 9 \\
 Slice 3: 4 8 \\
 Slice 4: 7 \\
-\end{align}
 ```
  
 The maximum number of slices is n + m - 1, where n is the number of rows and m is the
